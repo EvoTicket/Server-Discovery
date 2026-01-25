@@ -1,9 +1,0 @@
-eureka:
-  instance:
-    prefer-ip-address: false
-    hostname: ${EUREKA_HOSTNAME}
-  client:
-    register-with-eureka: false
-    fetch-registry: false
-    service-url:
-      defaultZone: https://${EUREKA_HOSTNAME}/eureka/
